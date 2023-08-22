@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from celery_app import celery_app
-from main import new_task_function
+#from main import new_task_function
 
 app = FastAPI()
 
